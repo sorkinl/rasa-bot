@@ -14,8 +14,8 @@ nlu:
       - I want to meet with the professor
       - I'd like to schedule a meeting
       - I want to meet with the professor
-      - I want to schedule a meeting for [12:00 PM](appointment_time)
-      - Meeting at [12 PM](appointment_time)
+      - I want to schedule a meeting for 12:00 PM
+      - Meeting at 12 PM
   - intent: greet
     examples: |
       - Hi
@@ -104,16 +104,16 @@ nlu:
 
   - intent: inform_name
     examples: |
-      - [Leonid Sorkin](student_name)
-      - [Todd Bryant](student_name)
-      - [Leo](student_name)
-      - [John](student_name)
+      - Leonid Sorkin
+      - Todd Bryant
+      - Leo
+      - John
 
   - intent: infrom_reason
     examples: |
-      - [I want to meet with the professor](reason)
-      - [Discuss essay](reason)
-      - [Talk about extra credit](reason)
+      - I want to meet with the professor
+      - Discuss essay
+      - Talk about extra credit
 
   - intent: infrom_time
     examples: |
